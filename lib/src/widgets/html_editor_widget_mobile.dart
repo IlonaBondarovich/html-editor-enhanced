@@ -143,14 +143,13 @@ class _HtmlEditorWidgetMobileState extends State<HtmlEditorWidget> {
                           }
                         });
                   },
-                  initialSettings: InAppWebViewSettings(
-                    javaScriptEnabled: true,
-                    transparentBackground: true,
-                    useShouldOverrideUrlLoading: true,
-                    useHybridComposition: widget.htmlEditorOptions
-                        .androidUseHybridComposition,
-                    loadWithOverviewMode: true,
-                  ),
+                  // initialSettings: InAppWebViewSettings(
+                  //   javaScriptEnabled: true,
+                  //   transparentBackground: true,
+                  //   useShouldOverrideUrlLoading: true,
+                  //   useHybridComposition: widget.htmlEditorOptions.,
+                  //   loadWithOverviewMode: true,
+                  // ),
                   initialUserScripts:
                       widget.htmlEditorOptions.mobileInitialScripts
                           as UnmodifiableListView<UserScript>?,
